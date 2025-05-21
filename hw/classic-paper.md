@@ -2,9 +2,7 @@
 
 The two classic paper assignments (CP1 and CP2) each have the same structure, described in the following sequence of steps.
 
-1. Carefully read the assigned readings. Make notes (preferably
-   handwritten on paper) that you can bring with you to the discussion
-   session.
+1. Carefully read the assigned readings. Make notes that you can bring with you to the discussion session. Notes must be handwritten on paper.
 
 1. Before 8 AM on the day of the discussion session, post at least one
    question to the Moodle forum for the discussion.
@@ -19,7 +17,7 @@ The two classic paper assignments (CP1 and CP2) each have the same structure, de
 1. Optionally, respond to one or more of the questions posted by other
    class members.
    
-1. Attend the discussion session and participate actively.
+1. Attend the discussion session and participate actively. No electronic devices or any other materials will be used during the discussion. Exception: you may refer to the handwritten notes you have created.
    
 1. _[This applies only if you are unable to attend the discussion.]_
    If you are absent from the discussion session (regardless of
@@ -39,6 +37,7 @@ the following aspects.
   assigned reading.
 * Your participation in the classroom discussion demonstrates insight
   into and curiosity about the reading.
+* Your handwritten notes convincingly demonstrate that you have studied the reading, extracting key concepts and noting any questions you would like to ask or issues you do not understand.
   
 
 ## CP1 (100 points)

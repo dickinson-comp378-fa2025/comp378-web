@@ -2,8 +2,8 @@
 
 **under construction**
 
-<!-- * [Syllabus](syllabus.docx) -->
-<!-- * [Overview Schedule](schedule.xlsx)  <\!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -\-> -->
+<!-- * [Syllabus](syllabus-5-21-2025.docx) -->
+<!-- * [Overview Schedule](schedule-5-21-2025.xlsx)  <\!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -\-> -->
 <!-- * [Detailed schedule](resources) -->
 <!-- * [Textbook website](https://www.pdbmbook.com/), including the [online -->
 <!--   playground](https://www.pdbmbook.com/playground) -->
@@ -26,4 +26,4 @@
 <!-- * [Acknowledgment](acknowledgment.md) -->
 
 ----
-Last modified: Wed May 21 05:31:20 UTC 2025 by jmac.
+Last modified: Wed May 21 08:25:43 UTC 2025 by jmac.
