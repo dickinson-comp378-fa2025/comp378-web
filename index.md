@@ -2,11 +2,11 @@
 
 **under construction**
 
-<!-- * [Syllabus](syllabus-5-21-2025.docx) -->
-<!-- * [Overview Schedule](schedule-5-21-2025.xlsx)  <\!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -\-> -->
+* [Syllabus](syllabus-5-22-2025.docx)
+* [Overview Schedule](schedule-5-21-2025.xlsx)  <!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -->
 <!-- * [Detailed schedule](resources) -->
-<!-- * [Textbook website](https://www.pdbmbook.com/), including the [online -->
-<!--   playground](https://www.pdbmbook.com/playground) -->
+* [Textbook website](https://www.pdbmbook.com/), including the [online
+  playground](https://www.pdbmbook.com/playground)
 <!-- * [Homework assignments](hw) -->
 <!-- * [Exams](exams.md)  &nbsp;&nbsp;&nbsp;<font color="green">UPDATED on 4/14/2022</font> -->
 <!-- * [Quantitative Reasoning (QR) Associate](qra.md) -->
@@ -26,4 +26,4 @@
 <!-- * [Acknowledgment](acknowledgment.md) -->
 
 ----
-Last modified: Wed May 21 08:25:43 UTC 2025 by jmac.
+Last modified: Wed May 21 22:19:33 UTC 2025 by jmac.
