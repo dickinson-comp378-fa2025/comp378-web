@@ -1,56 +1,65 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 31, 2022 at 03:55 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.11
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `bank`
+-- PostgreSQL database dump
 --
 
--- --------------------------------------------------------
+-- Dumped from database version 17.5
+-- Dumped by pg_dump version 17.5
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+-- SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
 
 --
--- Table structure for table `accounts`
+-- Name: bank; Type: SCHEMA; Schema: -; Owner: postgres
 --
 
-CREATE TABLE `accounts` (
-  `account_number` int(10) NOT NULL,
-  `balance` decimal(15,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE SCHEMA bank;
+
+
+ALTER SCHEMA bank OWNER TO postgres;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
 
 --
--- Dumping data for table `accounts`
+-- Name: accounts; Type: TABLE; Schema: bank; Owner: postgres
 --
 
-INSERT INTO `accounts` (`account_number`, `balance`) VALUES
-(111, '100.00'),
-(222, '200.00');
+CREATE TABLE bank.accounts (
+    account_number bigint NOT NULL,
+    balance numeric(15,2) NOT NULL
+);
+
+
+ALTER TABLE bank.accounts OWNER TO postgres;
 
 --
--- Indexes for dumped tables
+-- Data for Name: accounts; Type: TABLE DATA; Schema: bank; Owner: postgres
 --
 
---
--- Indexes for table `accounts`
---
-ALTER TABLE `accounts`
-  ADD PRIMARY KEY (`account_number`);
-COMMIT;
+INSERT INTO bank.accounts VALUES
+  (111, 100.00),
+  (222, 200.00);
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+--
+-- Name: accounts idx_17348_primary; Type: CONSTRAINT; Schema: bank; Owner: postgres
+--
+
+ALTER TABLE ONLY bank.accounts
+    ADD CONSTRAINT idx_17348_primary PRIMARY KEY (account_number);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

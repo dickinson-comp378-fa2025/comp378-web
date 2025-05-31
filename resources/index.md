@@ -301,32 +301,9 @@ SQL topics: select, from, distinct, as, where, and, between, in, like, is null. 
 
 * Overview of the course. 
 * Discussion of: why do we need databases?
-* Instructions on XAMPP installation:
-  - The recommended database software for this course is the XAMPP
-    package. This can be downloaded and installed on Windows, Linux,
-    and MacOS from the [XAMPP web
-    page](https://www.apachefriends.org/index.html) at
-    apachefriends.org.
-  - If desired, you can use the iMacs in Tome with XAMPP. You will
-    need to create a virtual machine on one of the iMacs then use
-    XAMPP within that virtual machine. A virtual machine image is
-    provided to help you with this. Details:
-	  * Download the VM image file, [comp378VM.ova](https://dickinson0-my.sharepoint.com/:u:/g/personal/jmac_dickinson_edu/EQSsBh04sspDoldjO7RoU6sBZ5k0QlMb444-a0REQrPdXA?e=JTfYUd)
-	  * Open the VirtualBox app, then choose File &#124; Import Appliance and pick `comp378VM.ova`
-	  * The [username and password for this virtual
-        machine](https://lms.dickinson.edu/mod/page/view.php?id=1080082)
-        are available on Moodle.
-* accessing phpMyAdmin:
-  - on Windows
-    - Run XAMPP control panel as administrator
-    - Start Apache and MySQL
-    - Click on Admin for MySQL
-  - on Ubuntu
-    - open Terminal, enter `sudo /opt/lampp/manager-linux-x64.run`
-    - on Manage Servers tab, choose Start All
-    - open FireFox, visit http://localhost, click on phpMyAdmin (top right)
-* importing the `wine` database:
-  - download [wine.sql](../sql/wine.sql)
+* Sign up for account at [supabase.com](supabasae), create new organization and project
+* Importing the `wine` database:
+  - open [wine.sql](../sql/wine.sql) in browser or text editor
   - in phpMyAdmin:
     * click the Home icon, then New
 	* enter `wine` as database name, click Create
