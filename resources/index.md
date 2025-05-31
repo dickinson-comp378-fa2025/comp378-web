@@ -288,7 +288,7 @@ Key concepts from chapters 1 and 2:
 * Different types of database management systems (DBMS): hierarchical,
   network, relational, object-oriented, XML, no-SQL. See textbook
   section 2.2.1. In this course, we focus almost exclusively on the
-  relational approach, which is dominant in practice.
+  relational approach, which is the most fundamental.
   
 Main topic for today: the ER model.
 * See [textbook slides for chapter 3](https://www.pdbmbook.com/vault/Chapter%20Conceptual%20Data%20Modeling%20using%20EER%20and%20UML.pdf/access).
@@ -301,19 +301,29 @@ SQL topics: select, from, distinct, as, where, and, between, in, like, is null. 
 
 * Overview of the course. 
 * Discussion of: why do we need databases?
-* Sign up for account at [supabase.com](supabasae), create new organization and project
+* Sign up for account at [Supabase](https://supabase.com/), create new organization and project
 * Importing the `wine` database:
-  - open [wine.sql](../sql/wine.sql) in browser or text editor
-  - in phpMyAdmin:
-    * click the Home icon, then New
-	* enter `wine` as database name, click Create
-	* click Import &#124; Choose File, then select `wine.sql`
-	* click Go (bottom right)
-* querying the `wine` database (Do this in your own phpMyAdmin or at
-  the [textbook online playground](https://www.pdbmbook.com/playground)):
-  - click on SQL
-  - enter `SELECT * FROM supplier`, click Go (bottom right)
-  - for a more interesting example, try `SELECT * FROM supplier WHERE supcity='San Francisco'`
+  - open [wine.sql](../sql/wine.sql) in browser or text editor -- you will be copying and pasting the contents of this file into Supabase.
+  - in Supabase:
+    * on left toolbar, open SQL Editor, create new snippet
+    * paste in the content of `wine.sql`, hit Run
+* Querying the `wine` database in Supabase:
+  - in SQL Editor, hit `+` to create new snippet
+  - Run the following query 
+  ```sql
+  SET search_path TO wine;
+  SELECT * FROM supplier;
+  ```
+  - for a more interesting example, try 
+  ```sql 
+  SELECT * FROM supplier WHERE supcity='San Francisco'
+  ```
+* Play around with the wine database (actually known as a _schema_, not a _database_, in Postgres):
+  - on left toolbar, open Table Editor, switch to `wine` schema, click on the `supplier` table
+    * Play around with sorting columns, editing data etc.
+    * Check out some of the other tables
+  - on left toolbar, open Database, switch to `wine` schema
+    * Try to understand some of the structure, drag things around, look at the icons at the bottom to figure out things like "primary key", "nullable" etc
 
 * [chapter 1 textbook slides](https://www.pdbmbook.com/vault/Chapter%20Fundamental%20Concepts%20of%20Database%20Management.pdf/access): especially slides 4-13, 17-18, 21
 
