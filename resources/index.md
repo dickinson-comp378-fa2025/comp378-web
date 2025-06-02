@@ -303,7 +303,7 @@ SQL topics: select, from, distinct, as, where, and, between, in, like, is null. 
 * Discussion of: why do we need databases?
 * Sign up for account at [Supabase](https://supabase.com/), create new organization and project
 * Importing the `wine` database:
-  - open [wine.sql](../sql/wine.sql) in browser or text editor -- you will be copying and pasting the contents of this file into Supabase.
+  - open [wine.sql](../sql/wine.sql) in browser or text editor – you will be copying and pasting the contents of this file into Supabase.
   - in Supabase:
     * on left toolbar, open SQL Editor, create new snippet
     * paste in the content of `wine.sql`, hit Run
@@ -311,12 +311,12 @@ SQL topics: select, from, distinct, as, where, and, between, in, like, is null. 
   - in SQL Editor, hit `+` to create new snippet
   - Run the following query 
   ```sql
-  SET search_path TO wine;
-  SELECT * FROM supplier;
+  set search_path to wine;
+  select * from supplier;
   ```
   - for a more interesting example, try 
   ```sql 
-  SELECT * FROM supplier WHERE supcity='San Francisco'
+  select * from supplier where supcity='San Francisco'
   ```
 * Play around with the wine database (actually known as a _schema_, not a _database_, in Postgres):
   - on left toolbar, open Table Editor, switch to `wine` schema, click on the `supplier` table
