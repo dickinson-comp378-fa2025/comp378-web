@@ -239,18 +239,6 @@ Please take the [quiz on relations and
 keys](https://forms.office.com/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UNEgyODZYVVpVNVNCS1BKODNVQ0I5Q0JPVS4u).
 (Does not affect your grade, but demonstrates your understanding.)
 
-Announcement: important departmental event on Thursday evening --
-[fireside chat with Reshma
-Saujani](https://www.dickinson.edu/events/event/16906/girls_who_code_a_fireside_chat_with_founder_reshma_saujani),
-founder and CEO of Girls Who Code. 7pm in Stern Great Room, or via
-[Zoom](https://www.dickinson.edu/events/event/16906/girls_who_code_a_fireside_chat_with_founder_reshma_saujani). To
-celebrate the importance and relevance of this event to our
-discipline, I am offering some extra credit for attending: if you
-attend the fireside chat, you can top up any Core Content homework
-assignment of your choice to 100% (provided you made a reasonable
-attempt at the assignment).
-
-
 Main topic for today: database normalization
 * Whiteboard notes: [05-normalization.svg](class05/05-normalization.svg)
 * [textbook slides for chapter
@@ -293,7 +281,7 @@ Key concepts from chapters 1 and 2:
 Main topic for today: the ER model.
 * See [textbook slides for chapter 3](https://www.pdbmbook.com/vault/Chapter%20Conceptual%20Data%20Modeling%20using%20EER%20and%20UML.pdf/access).
 
-SQL topics: select, from, distinct, as, where, and, between, in, like, is null. See 7.3.1.1.
+SQL topics: `select`, `from`, `distinct`, `as`, `where`, `and`, `between`, `in`, `like`, `is null`. See 7.3.1.1.
 
 
 
@@ -328,4 +316,4 @@ SQL topics: select, from, distinct, as, where, and, between, in, like, is null. 
 * [chapter 1 textbook slides](https://www.pdbmbook.com/vault/Chapter%20Fundamental%20Concepts%20of%20Database%20Management.pdf/access): especially slides 4-13, 17-18, 21
 
 ----
-Last modified: Tue May 10 17:43:54 UTC 2022 by jmac.
+Last modified: Mon Jun 02 19:33:17 UTC 2025 by jmac.

@@ -9,8 +9,8 @@
   please see the [Southwind
   acknowledgement](southwind-acknowledgement.md) for more
   details
-* [CarlisleMenuItems.sql](CarlisleMenuItems.sql) - Simple demonstration with Carlisle restaurant information
-* [CarlisleMenuItemB.sql](CarlisleMenuItemsB.sql) - same as
+* [carlislemenuitems.sql](carlislemenuitems.sql) - Simple demonstration with Carlisle restaurant information
+* [carlislemenuitemsb.sql](carlislemenuitemsb.sql) - same as
   `CarlisleMenuItems.sql`, but with an extra restaurant that has no
   dishes listed.
 * [bank.sql](bank.sql) - very simple database with two bank accounts for concurrency experiments
