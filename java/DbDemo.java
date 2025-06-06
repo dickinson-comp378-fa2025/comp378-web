@@ -19,23 +19,19 @@ public class DbDemo {
 
 	public static void main(String[] args) {
 		Connection connection = null;
+		String PG_USER = "postgres";
+		// String PG_PASSWORD = "mypassword";
+		String PG_PASSWORD = System.getenv("PGPASSWORD");
 
 		// The connectionProperties object will store the username and
-		// password for connecting to the database. In this case, we assume
-		// the username is "root" and the password is the empty string.
+		// password for connecting to the database.
 		Properties connectionProperties = new Properties();
-		connectionProperties.put("user", "root");
-		connectionProperties.put("password", "");
+		connectionProperties.put("user", PG_USER);
+		connectionProperties.put("password", PG_PASSWORD);
 
 		// The string jdbcUrl specifies the details of how jdbc should
-		// contact the database server. In this case, we assume it is a
-		// MySQL server which can be contacted at IP address 127.0.0.1,
-		// port 3306.
-		// On your own machine, you can find the IP address by inspecting
-		// the phpMyAdmin settings (Home icon -> Database server), and you
-		// can find the port number by inspecting the XAMPP Control Panel
-		// (MySQL port).
-		String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/";
+		// contact the database server.
+		String jdbcUrl = "jdbc:postgresql://localhost:5432/";
 		try {
 			connection = DriverManager.getConnection(jdbcUrl,
 					connectionProperties);
@@ -48,10 +44,10 @@ public class DbDemo {
 		// database server.
 		try (Statement statement = connection.createStatement()) {
 			ResultSet rs = null;
-			// Specify that we are using the wine database.
-			statement.execute("use wine");
+			// Specify that we are using the wine schema.
+			statement.execute("set search_path to wine");
 			// Execute a SELECT query in SQL
-			rs = statement.executeQuery("SELECT * FROM `SUPPLIER`");
+			rs = statement.executeQuery("SELECT * FROM SUPPLIER");
 			// Iterate over the results returned by the query, using
 			// getString() to obtain values according to column names.
 			while (rs.next()) {

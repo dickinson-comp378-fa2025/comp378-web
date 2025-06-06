@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 /**
  * A QueryExecutor object can be used to send SQL commands and queries to a
- * MySQL database server and for printing the results of queries. This
+ * Postgres database server and for printing the results of queries. This
  * class is written as a simple tutorial example. It takes no account of
  * issues such as security and efficiency.
  * 
@@ -17,57 +17,59 @@ import java.sql.Statement;
  *
  */
 public class QueryExecutor {
-	private static final String MYSQL_USER = "root";
+	private static final String PG_USER = "postgres";
 
 	// Important note: in any real-world application, passwords would not
 	// be stored in the source code.
-	private static final String MYSQL_PASSWORD = "";
+	// private static final String PG_PASSWORD = "mypassword";
+	String PG_PASSWORD = System.getenv("PGPASSWORD");
 
-	private static final String MYSQL_IP_ADDRESS = "127.0.0.1";
-	private static final String MYSQL_PORT_NUMBER = "3306";
+	private static final String PG_HOST = "localhost";
+	private static final String PG_PORT_NUMBER = "5432";
 
 	Connection connection = null;
 
-	private String mysql_database_name = "wine";
+	private String schema_name = "wine";
 
 	/**
-	 * Construct a new QueryExecutor object and connect it to the desired MySQL
-	 * database, as specified by the class constants such as MYSQL_IP_ADDRESS,
-	 * MYSQL_PORT_NUMBER, etc.
+	 * Construct a new QueryExecutor object and connect it to the desired Postgres
+	 * database, as specified by the class constants such as PG_IP_ADDRESS,
+	 * PG_PORT_NUMBER, etc.
 	 */
 	public QueryExecutor() {
 		initialize();
 	}
 
 	/**
-	 * Construct a new QueryExecutor object and connect it to the desired MySQL
-	 * database, as specified by the class constants such as MYSQL_IP_ADDRESS,
-	 * MYSQL_PORT_NUMBER, etc.
+	 * Construct a new QueryExecutor object and connect it to the desired Postgres
+	 * database, as specified by the class constants such as PG_IP_ADDRESS,
+	 * PG_PORT_NUMBER, etc.
 	 * 
-	 * @param databaseName The name of the MySQL database to connect to
+	 * @param schemaName The name of the Postgres database to connect to
 	 */
-	public QueryExecutor(String databaseName) {
-		this.mysql_database_name = databaseName;
+	public QueryExecutor(String schemaName) {
+		this.schema_name = schemaName;
 		initialize();
 	}
 
 	private void initialize() {
 		Properties connectionProperties = new Properties();
-		connectionProperties.put("user", MYSQL_USER);
-		connectionProperties.put("password", MYSQL_PASSWORD);
+		connectionProperties.put("user", PG_USER);
+		connectionProperties.put("password", PG_PASSWORD);
 
-		// Connect to MySQL
+		// Connect to Postgres
 		try {
 			connection = DriverManager.getConnection(
-					"jdbc:" + "mysql" + "://" + MYSQL_IP_ADDRESS + ":" + MYSQL_PORT_NUMBER + "/", connectionProperties);
+					"jdbc:" + "postgresql" + "://" + PG_HOST + ":" + PG_PORT_NUMBER + "/", connectionProperties);
 		} catch (SQLException e) {
 			handleSQLException(e);
 		}
-		System.out.println("Successfully connected to mysql.");
+		System.out.println("Successfully connected to Postgres.");
 
-		// Switch to using the desired database
-		execute("use " + mysql_database_name);
-		System.out.format("Using database '%s'.\n\n", mysql_database_name);
+		// Switch to using the desired schema
+		// execute("use " + schema_name);
+		execute("set search_path to " + schema_name);
+		System.out.format("Using schema '%s'.\n\n", schema_name);
 	}
 
 	/**
@@ -200,6 +202,6 @@ public class QueryExecutor {
 		QueryExecutor qe = new QueryExecutor("wine");
 
 		// This is an example of how to execute a query.
-		qe.executeQuery("SELECT * FROM `supplier`");
+		qe.executeQuery("SELECT * FROM supplier");
 	}
 }
