@@ -21,14 +21,10 @@ The two classic paper assignments (CP1 and CP2) each have the same structure, de
    
 1. _[This applies only if you are unable to attend the discussion.]_
    If you are absent from the discussion session (regardless of
-   whether your absence is excused in advance or not), you must still
-   post discussion questions as described above, **and** you must
-   write a blog post about the reading. In your blog post, discuss and
-   respond to one or more of the questions posted by other
-   students. Your post should be made publicly available online
-   somewhere (e.g. tumblr.com). The post must be at least 800 words in
-   length. Submit a link to your blog post to the Moodle forum. The
-   link must be submitted within three days of our discussion session.
+   whether your absence is excused in advance or not), you can make up for the absence and receive a nonzero grade by meeting the following conditions:
+  - You must still post discussion question(s) by the required deadline.
+  - Within 48 hours of the discussion session, you must respond convincingly to one or more of the posted discussion questions on Moodle.
+  - Within 7 days of the discussion session, you must meet with the instructor, during scheduled office hours or by appointment, to discuss the content of the missed discussion. Your grade will be determined mostly by demonstrating knowledge and insight during this meeting.
 
 To obtain an excellent grade on these assignments, you must excel on
 the following aspects.
@@ -45,7 +41,7 @@ the following aspects.
 There are two assigned readings for this session, both available on
 Moodle:
 * "Needles in the World's Biggest Haystack: The algorithm that ranked
-  the internet": This is definitely not a classic paper. It is a
+  the internet": This is not a classic paper. It is a
   short, light overview of the significance of Google's PageRank
   algorithm. This reading will help provide perspective and background
   for the classic paper described next.

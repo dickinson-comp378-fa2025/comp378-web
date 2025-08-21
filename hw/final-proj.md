@@ -12,13 +12,11 @@ are as follows.
   contain some nontrivial entity types and relationship types.
 * The database schema should be constructed using relation notation,
   as in section 6.1.5 of the textbook.
-* The database should be implemented in MySQL.
+* The database should be implemented in an SQL environment such as PostgreSQL, MySQL or SQLite. Exception: With the prior permission of the instructor, you may use a NoSQL database.
+* The database can be deployed on your own device, on Supabase, or on another server or service of your choosing.
 * The computer program should demonstrate some interesting properties
   or capabilities of the database. 
-  - Most likely, it will be written in Java and will employ JDBC.
-  - **Alternatively, you can learn a little PHP and make some dynamic
-    webpages that interact with your database. For some instructions
-    and a demo, please go to the [PHP demo page](../php/index.md).** [Added 4/16/2022]
+  - You are free to use any language or framework. In class and homework assignments, we used Java and JDBC. This is therefore the easiest option. But you are welcome to use Python, JavaScript, or another programming language, combined with any other suitable tools or frameworks such as Node.js/Express, Python/Flask etc.
 * The final project can be completed individually or in teams of
   two. However, if you worked with a partner for the RP1 and RP2
   assignments, you may not work with the same partner again. If you
@@ -43,15 +41,17 @@ are as follows.
 * Optionally, you might consider using one or more advanced techniques
   in your project. These may include: transactions, prepared
   statements, stored procedures, or triggers. Additional reading of
-  the textbook and/or MySQL documentation may be required for this.
+  the textbook and/or PostgreSQL or MySQL documentation may be required for this.
 
 If you have a particular interest in pursuing a project that does not
 meet the above requirements, feel free to discuss it with the
-instructor. (For example, if would like to employ a NoSQL database,
-the instructor will probably allow it&mdash;but you must obtain
-permission before starting.) One goal of the project is that you
-should work on a project that you are excited about, so do please
-discuss your ideas with the instructor.
+instructor. One goal of the project is that you should work on a project that you are excited about, so do please discuss your ideas with the instructor.
+
+## AI use
+
+You are permitted to use all relevant tools, including AI assistance, for all aspects of this project. You are permitted to use AI as much as desired for writing code, creating schemas, creating your presentation, writing your experience report, and all other aspects of the project. You are not required to document every individual use of AI. As stated above, the expectation for the project is that should represent about 20 hours of work. Therefore, if you use AI to quickly develop a prototype of your database and program, you should invest additional time adding features and improving it (again with AI assistance if desired). The final project should represent 20 hours of your own work. In your presentation and experience report, you should clearly explain which parts of the project were largely completed by AI, and how you spent your own time to improve and develop the project.
+
+## Graded components FP1-FP4
 
 The final project consists of four graded assignments labeled
 FP1-FP4. Each assignment is described separately below. Assignments
@@ -62,7 +62,7 @@ Moodle.
 
 
 
-## FP1 (30 points)
+### FP1 (30 points)
 
 Submit a project proposal to Moodle. Describe the proposed content of
 the database and any ideas you may already have for the
@@ -72,7 +72,7 @@ longer proposals will not be penalized. Images, figures, or diagrams
 may be included, but are not required.
 
 
-## FP2 (60 points)
+### FP2 (60 points)
 
 Submit docments explaining the current design and content of your
 database and the status of the project. This should include:
@@ -88,7 +88,7 @@ Note that assignment FP2 is just a snapshot of the current design. You
 are permitted to change the design and content of your database after
 submitting FP2.
 
-## FP3 (120 points)
+### FP3 (120 points)
 
 Give a presentation describing your project. The presentation should
 be approximately 10 minutes in length, with up to five minutes of
@@ -117,9 +117,9 @@ following aspects. It should:
   word).
   
 
-## FP4 (1000 points)
+### FP4 (1000 points)
 
-Submit docments explaining the current design and content of your
+Submit documents explaining the current design and content of your
 database and the status of the project. This should include:
 * an ER or EER model, together with any necessary annotations;
 * the database schema in relation notation (as in section 6.1.5 of the textbook);
@@ -127,19 +127,16 @@ database and the status of the project. This should include:
 * the source code of your computer program;
 * an _experience report_, described in more detail below.
 
-### The FP4 experience report
+#### The FP4 experience report
 
-Your experience report should be 500-2000 words in length. It is not a
-formal report, but rather a description of your experience in
-completing the project. You can shape the report according to your own
-experience, but it would be a good idea to include some or all of the
-following:
+Your experience report should be 500-2000 words in length, although longer reports will not be penalized. It is not a formal report, but rather a description of your experience in completing the project. One important goal of the report is to convince the instructor that you invested time and effort in your project, equivalent to about 20 hours of work. Therefore, if you made extensive use of AI, you should explain carefully how human effort was invested in the project. You can shape the report according to your own experience, but it would be a good idea to include some or all of the following:
 * a description of how to run your computer program and what the
   computer program does;
 * descriptions of any interesting features of your database design and
   computer program;
 * descriptions of any difficulties you faced during the project and
   how you overcame them;
+* descriptions of which parts of your project were largely accomplished by AI and which parts were done by human work (as mentioned already above, it is strongly recommended to include this);
 * descriptions of additional features that you would like to add if
   you had more time;
 * discussion of social, legal, and ethical issues that could arise if
@@ -150,7 +147,7 @@ You can format the report in any reasonable fashion. Feel free to use
 bullet points, diagrams, and figures as appropriate. Clarity,
 technical correctness, and grammatical correctness are important.
   
-### FP4 grading
+#### FP4 grading
 
 It is not possible to provide a formal rubric due to the widely
 varying nature of final projects. However, points will be awarded in
@@ -164,11 +161,7 @@ three categories of roughly equal weight.
   any advanced techniques, such as transactions, prepared statements,
   stored procedures, or triggers?
 * Effort: Is the total amount of effort commensurate with two weeks of
-  course work? Does the length of the SQL and Java code represent an
-  appropriate amount of work? Does the experience report convey an
-  appropriate amount of work?
+  course work? Does the length of the SQL and Java (or other programming language) code represent an appropriate amount of work, after accounting for the use of AI? Does the experience report convey an appropriate amount of work?
 * Technical correctness and quality: Is the EER design correct? Is the
   translation into relation notation correct? Is the SQL code correct?
-  Is the Java code correct? Is the SQL code and Java code commented
-  appropriately? Does the experience report convey its ideas clearly,
-  with correct grammar and technically correct statements?
+  Is the programming language code correct? Is the SQL code and source code commented appropriately? Does the experience report convey its ideas clearly, with correct grammar and technically correct statements?
