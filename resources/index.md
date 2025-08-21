@@ -228,7 +228,7 @@ deleted by others.
 
 Warmup exercise for functional dependencies and normalization: 
 * [review-func-dep.xlsx](class06/review-func-dep.xlsx)
-* corresponding database: [carlislefood.sql](class06/carlislefood.sql)
+* corresponding database: [carlislefood.sql](../sql/carlislefood.sql)
 
 Main topic for today: converting ER model to relational model.
 * [textbook slides for chapter 6](https://www.pdbmbook.com/vault/Chapter%20Relational%20Databases.pdf/access) again; we go over slides 49-62 and 74-77 in class.
