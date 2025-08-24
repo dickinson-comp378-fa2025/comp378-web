@@ -13,7 +13,7 @@ import java.sql.Statement;
  * issues such as security and efficiency.
  * 
  * @author John MacCormick
- * @version December 2021
+ * @version August 2025
  *
  */
 public class QueryExecutor {
@@ -21,15 +21,18 @@ public class QueryExecutor {
 
 	// Important note: in any real-world application, passwords would not
 	// be stored in the source code.
-	// private static final String PG_PASSWORD = "mypassword";
-	String PG_PASSWORD = System.getenv("PGPASSWORD");
+	private static final String PG_PASSWORD = "tt99ww77";
 
 	private static final String PG_HOST = "localhost";
+
 	private static final String PG_PORT_NUMBER = "5432";
 
-	Connection connection = null;
+	private static String SUPABASE_CONN = null;
+	// private static String SUPABASE_CONN = "jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:5432/postgres?user=postgres.xnnnhehnsucsmdmbggvu&password=l1vZlecIoqQLjCkl";
 
 	private String schema_name = "wine";
+	
+	Connection connection = null;
 
 	/**
 	 * Construct a new QueryExecutor object and connect it to the desired Postgres
@@ -59,8 +62,14 @@ public class QueryExecutor {
 
 		// Connect to Postgres
 		try {
-			connection = DriverManager.getConnection(
-					"jdbc:" + "postgresql" + "://" + PG_HOST + ":" + PG_PORT_NUMBER + "/", connectionProperties);
+			if (SUPABASE_CONN == null) {
+				String connString = "jdbc:" + "postgresql" + "://" + PG_HOST + ":" + PG_PORT_NUMBER + "/";
+				// System.out.println("Connecting to database with connection string:\n" + connString);
+				connection = DriverManager.getConnection(connString, connectionProperties);
+			} else {
+				// System.out.println("Connecting to supabase with connection string:\n" + SUPABASE_CONN);
+				connection = DriverManager.getConnection(SUPABASE_CONN);
+			}
 		} catch (SQLException e) {
 			handleSQLException(e);
 		}
