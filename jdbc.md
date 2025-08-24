@@ -1,6 +1,6 @@
 # using JDBC
 
-_These instructions were written by ChatGPT and lightly edited by the instructor._
+_These instructions were initially written by ChatGPT, then edited by the instructor._
 
 ### Creating a PostgreSQL JDBC project in VS Code 
 
@@ -18,10 +18,10 @@ Follow these steps to set up a new Java project in VS Code to interact with Post
    Create a `src/` folder and `lib/` folder
    - Put your source file [`QueryExecutor.java`](java/QueryExecutor.java) into the `src/` folder.  
    - Put the external JAR [`postgresql-42.7.7.jar`](java/postgresql-42.7.7.jar)into the `lib/` folder.
-
+  
 1. **Open the project folder in VS Code**  
    - In VS Code, go to *File → Open Folder…* and select `QueryExecutorProject`.
-
+  
 1. **Tell VS Code about your JAR files**  
    - In the project root, create a `.vscode` folder (if it doesn’t exist).  
    - Inside it, create a file called `settings.json` with the following contents:
