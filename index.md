@@ -3,8 +3,8 @@
 * [Syllabus](syllabus-8-21-2025.docx)
 * [Overview Schedule](schedule-8-23-2025.xlsx)  <!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -->
 * [Detailed schedule](resources)
-* [Textbook website](https://www.pdbmbook.com/), including the [online
-  playground](https://www.pdbmbook.com/playground)
+* [Textbook website](https://www.pdbmbook.com/), textbook [online
+  playground](https://www.pdbmbook.com/playground), [textbook slides](https://lms.dickinson.edu/mod/folder/view.php?id=1362590)
 * [Homework assignments](hw)
 * [Exams](exams.md)  <!-- &nbsp;&nbsp;&nbsp;<font color="green">UPDATED on 4/14/2022</font> -->
 * [Instructor's office hours](https://johnmaccormick.github.io/jmac-web/office-hours.html)
