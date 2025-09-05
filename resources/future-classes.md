@@ -266,19 +266,3 @@ Main topic for today: the EER model (_enhanced_ ER model).
     homework.
 
 
-## Class 2
-
-Key concepts from chapters 1 and 2:
-* *transaction*: see textbook section 1.5.6
-* *ACID* properties of transactions: see textbook section 1.5.6
-* Different types of database management systems (DBMS): hierarchical,
-  network, relational, object-oriented, XML, no-SQL. See textbook
-  section 2.2.1. In this course, we focus almost exclusively on the
-  relational approach, which is the most fundamental.
-  
-Main topic for today: the ER model.
-* See [textbook slides for chapter 3](https://www.pdbmbook.com/vault/Chapter%20Conceptual%20Data%20Modeling%20using%20EER%20and%20UML.pdf/access).
-
-SQL topics: `select`, `from`, `distinct`, `as`, `where`, `and`, `between`, `in`, `like`, `is null`. See 7.3.1.1.
-
-Try to get DBeaver/Postgres working on your own machine. Supabase is a good alternative if you can't get it working.
