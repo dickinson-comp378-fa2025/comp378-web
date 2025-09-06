@@ -1,5 +1,18 @@
 # Detailed schedule
 
+## Class 3
+
+Preliminary discussion of the mathematical motion of a
+_relation_. Whiteboard notes provided:
+[relation-overview.svg](class03/relation-overview.svg)
+
+Main topic for today: the EER model (_enhanced_ ER model).
+* We continue with [textbook slides for chapter
+  3](https://lms.dickinson.edu/mod/folder/view.php?id=1362590).
+  - Note the methodology on slide 45. This will be useful for
+    homework.
+
+
 ## Class 2
 
 Key concepts from chapters 1 and 2:
@@ -46,7 +59,7 @@ Try to get DBeaver/Postgres working on your own machine. Supabase is a good alte
   - on left toolbar, open Database, switch to `wine` schema
     * Try to understand some of the structure, drag things around, look at the icons at the bottom to figure out things like "primary key", "nullable" etc
 
-* [chapter 1 textbook slides](https://www.pdbmbook.com/vault/Chapter%20Fundamental%20Concepts%20of%20Database%20Management.pdf/access): especially slides 4-13, 17-18, 21
+* [chapter 1 textbook slides](https://lms.dickinson.edu/mod/folder/view.php?id=1362590): especially slides 4-13, 17-18, 21
 
 * Before next time, install on your own computer:
   - [PostgreSQL](https://www.postgresql.org/download/)
