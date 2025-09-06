@@ -253,16 +253,5 @@ Main topic for today: relations and keys.
   6](https://www.pdbmbook.com/vault/Chapter%20Relational%20Databases.pdf/access)
 
 
-## Class 3
-
-Preliminary discussion of the mathematical motion of a
-_relation_. Whiteboard notes provided:
-[relation-overview.svg](class03/relation-overview.svg)
-
-Main topic for today: the EER model (_enhanced_ ER model).
-* We continue with [textbook slides for chapter
-  3](https://www.pdbmbook.com/vault/Chapter%20Conceptual%20Data%20Modeling%20using%20EER%20and%20UML.pdf/access).
-  - Note the methodology on slide 45. This will be useful for
-    homework.
 
 

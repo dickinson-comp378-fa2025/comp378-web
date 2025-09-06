@@ -8,7 +8,7 @@
 * [Homework assignments](hw)
 * [Exams](exams.md)  <!-- &nbsp;&nbsp;&nbsp;<font color="green">UPDATED on 4/14/2022</font> -->
 * [Instructor's office hours](https://johnmaccormick.github.io/jmac-web/office-hours.html)
-* [Moodle site](https://lms.dickinson.edu/course/view.php?id=66761) for assignment solutions
+* [Moodle site](https://lms.dickinson.edu/course/view.php?id=66761) for assignment submission, assignment solutions, discussion forums, readings, textbook slides.
 <!-- * [Zoom link](https://lms.dickinson.edu/mod/page/view.php?id=1063923) for occasions when class is online -->
 <!-- * [Recordings of some classes](https://lms.dickinson.edu/mod/page/view.php?id=1063924) -->
 * [SQL source for sample databases](sql/)
