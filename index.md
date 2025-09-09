@@ -9,7 +9,7 @@
 * [Exams](exams.md)  <!-- &nbsp;&nbsp;&nbsp;<font color="green">UPDATED on 4/14/2022</font> -->
 * [Instructor's office hours](https://johnmaccormick.github.io/jmac-web/office-hours.html)
 * [Moodle site](https://lms.dickinson.edu/course/view.php?id=66761) for assignment submission, assignment solutions, discussion forums, readings, textbook slides.
-<!-- * [Zoom link](https://lms.dickinson.edu/mod/page/view.php?id=1063923) for occasions when class is online -->
+* Zoom link for when class is online: [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick). Meeting ID: 398 215 6590.
 <!-- * [Recordings of some classes](https://lms.dickinson.edu/mod/page/view.php?id=1063924) -->
 * [SQL source for sample databases](sql/)
 * [Java
