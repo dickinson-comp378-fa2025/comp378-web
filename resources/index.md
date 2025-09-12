@@ -1,5 +1,15 @@
 # Detailed schedule
 
+## Class 4
+
+Main topic for today: relations and keys.
+* Whiteboard notes: [relations-and-keys.svg](class04/relations-and-keys.svg)
+* see also the textbook slides for chapter 6
+
+
+
+
+
 ## Class 3
 
 Preliminary discussion of the mathematical motion of a
