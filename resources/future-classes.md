@@ -245,13 +245,5 @@ Main topic for today: database normalization
 
 
 
-## Class 4
-
-Main topic for today: relations and keys.
-* Whiteboard notes: [relations-and-keys.svg](class04/relations-and-keys.svg)
-* [textbook slides for chapter
-  6](https://www.pdbmbook.com/vault/Chapter%20Relational%20Databases.pdf/access)
-
-
 
 
