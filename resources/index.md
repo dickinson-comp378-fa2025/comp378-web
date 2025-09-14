@@ -3,7 +3,7 @@
 
 ## Class 5
 
-In the first few minutes of class, we will try to memorize the definitions on relations and keys covered last time. Then we will do the following ungraded quiz:
+In the first few minutes of class, we will try to memorize the [definitions on relations and keys](./definitions.md) covered last time. Then we will do the following ungraded quiz:
 * [quiz on relations and keys](https://forms.office.com/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UNEgyODZYVVpVNVNCS1BKODNVQ0I5Q0JPVS4u). (Does not affect your grade, but demonstrates your understanding.)
 
 Main topic for today: database normalization
