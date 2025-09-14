@@ -46,6 +46,30 @@ Let _R_ and _S_ be relation schemas, such that:
 
 Then _A_ is a _foreign key referring to B_ if the values of _A_ are constrained to be a subset of _B_. There is some [fine print](fk_fineprint.md), which you can ignore.
 
+### _Prime column_ of a relation schema: 
+
+**A column that is part of a key.**
+
+### _Functional dependency_ in a relation schema: 
+
+**_A-->B_ is a _functional dependency_ if the mapping from _A_ to _B_ is always a function.**
+* That is, in every tuple (_a,b_), the value of _a_ uniquely determines the value of _b_.
+
+### Boyce-Codd normal form (BCNF) for a relation schema:
+
+**The left hand side of every functional dependency is a superkey.**
+* This rules out a lot of redundancy because it means that any functional dependency in a table can't have repeated rows&mdash;the left hand side is a superkey so its values are unique.
+
+
+### Third normal form (3NF) for a relation schema:
+**For every functional dependency, either:**
+* **the left hand side is a superkey; or**
+* **the right hand side is a prime column.**
+
+Important fact: Any relation schema can be converted to an equivalent collection of relation schemas in 3NF. BCNF is preferable, but in certain rare cases it's not possible (e.g. the ZIP code example).
+
+
+
 
 
 

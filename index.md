@@ -19,6 +19,7 @@
   for JDBC
 * [using JDBC](jdbc.md)
 <!-- * [PHP demo](php) -->
+* [Definitions to memorize](resources/definitions.md)
 * [Acknowledgment](acknowledgment.md)
 
 ----
