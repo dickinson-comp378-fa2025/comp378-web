@@ -231,17 +231,6 @@ Warmup exercise for functional dependencies and normalization:
 Main topic for today: converting ER model to relational model.
 * [textbook slides for chapter 6](https://www.pdbmbook.com/vault/Chapter%20Relational%20Databases.pdf/access) again; we go over slides 49-62 and 74-77 in class.
 
-## Class 5
-
-Please take the [quiz on relations and
-keys](https://forms.office.com/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UNEgyODZYVVpVNVNCS1BKODNVQ0I5Q0JPVS4u).
-(Does not affect your grade, but demonstrates your understanding.)
-
-Main topic for today: database normalization
-* Whiteboard notes: [05-normalization.svg](class05/05-normalization.svg)
-* [textbook slides for chapter
-  6](https://www.pdbmbook.com/vault/Chapter%20Relational%20Databases.pdf/access)
-  again
 
 
 
