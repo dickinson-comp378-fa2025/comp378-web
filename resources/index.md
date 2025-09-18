@@ -1,6 +1,20 @@
 # Detailed schedule
 
 
+## Class 6
+
+Warmup exercise for functional dependencies and normalization: 
+* normalize the [Carlisle food database](../sql/carlislefood.sql)
+* Solution (don't peek until later): [review-func-dep.xlsx](class06/review-func-dep.xlsx)
+
+Take the ungraded [quiz on functional dependencies and normalization](https://forms.office.com/r/GKkF8DfJtA).
+
+Main topic for today: converting ER model to relational model.
+* we use the textbook slides for chapter 6 again; we go over slides 49-62 and 74-77 in class.
+
+In the remaining time we will explore Zip code example, a classic example that cannot be put into BCNF.
+
+
 ## Class 5
 
 In the first few minutes of class, we will try to memorize the [definitions on relations and keys](./definitions.md) covered last time. Then we will do the following ungraded quiz:
