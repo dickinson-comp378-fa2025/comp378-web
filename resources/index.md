@@ -4,8 +4,9 @@
 ## Class 6
 
 Warmup exercise for functional dependencies and normalization: 
-* normalize the [Carlisle food database](../sql/carlislefood.sql)
-* Solution (don't peek until later): [review-func-dep.xlsx](class06/review-func-dep.xlsx)
+* [review-func-dep.xlsx](class06/review-func-dep.xlsx) -- Make sure you are on the "unnormalized" sheet. The "normalized" sheet contains the solution. Don't look at that yet!
+* Also available as SQL: [carlislefood.sql](../sql/carlislefood.sql)
+
 
 Take the ungraded [quiz on functional dependencies and normalization](https://forms.office.com/r/GKkF8DfJtA).
 
