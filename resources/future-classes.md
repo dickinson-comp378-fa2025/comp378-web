@@ -209,18 +209,6 @@ Main topic for today: database joins
   - [CarlisleMenuItemB.sql](../sql/CarlisleMenuItemsB.sql)
 
 
-## Class 7
-
-Most of this class will be devoted to an ungraded but required lab
-activity to learn about creating and altering database tables within
-phpMyAdmin:
-* [table-creation-lab.docx](class07/table-creation-lab.docx)
-
-If you don't have access to XAMPP, a great way to practice with
-phpMyAdmin is to use the online demo server at
-[phpmyadmin.net](https://demo.phpmyadmin.net/master-config/). Note
-that this is a public server so your work can be viewed, altered, or
-deleted by others.
 
 
 

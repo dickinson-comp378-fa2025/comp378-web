@@ -1,6 +1,15 @@
 # Detailed schedule
 
 
+## Class 7
+
+Most of this class will be devoted to an ungraded but required lab activity to learn about creating and altering database tables within DBeaver:
+<!-- * [table-creation-lab.docx](class07/table-creation-lab.docx) -->
+* _under construction_
+
+If you don't have access to DBEaver, you can use Supabase -- but many of the instructions will not apply directly, and you'll need to figure out some of the techniques on your own.
+
+
 ## Class 6
 
 Warmup exercise for functional dependencies and normalization: 
