@@ -4,10 +4,9 @@
 ## Class 7
 
 Most of this class will be devoted to an ungraded but required lab activity to learn about creating and altering database tables within DBeaver:
-<!-- * [table-creation-lab.docx](class07/table-creation-lab.docx) -->
-* _under construction_
+* [table-creation-lab.docx](class07/table-creation-lab.docx)
 
-If you don't have access to DBEaver, you can use Supabase -- but many of the instructions will not apply directly, and you'll need to figure out some of the techniques on your own.
+If you don't have access to DBEaver, you can use Supabase&mdash;but many of the instructions will not apply directly, and you'll need to figure out some of the techniques on your own.
 
 
 ## Class 6
