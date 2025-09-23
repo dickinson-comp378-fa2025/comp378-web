@@ -8,6 +8,8 @@ Most of this class will be devoted to an ungraded but required lab activity to l
 
 If you don't have access to DBEaver, you can use Supabase&mdash;but many of the instructions will not apply directly, and you'll need to figure out some of the techniques on your own.
 
+Most of the class will be asynchronous as individuals work on the lab. Please post questions, suggestions, and advice on our [Teams channel](https://teams.microsoft.com/l/channel/19%3A803236e908df48dd95545caf4e88554d%40thread.tacv2/class%2010%20lab?groupId=162cbdef-318a-4838-b41f-857638354f97&tenantId=6232b055-76b9-4c13-9b88-b562ae7db6fb). There is also a Teams meeting on that channel. You can join the meeting any time to get real-time help from the instructor.
+
 
 ## Class 6
 
