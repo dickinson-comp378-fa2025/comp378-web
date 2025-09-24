@@ -1,6 +1,15 @@
 # Detailed schedule
 
 
+## Class 8
+
+Main topic for today: database joins
+* Whiteboard notes: [08-joins-whiteboard.svg](class08/08-joins-whiteboard.svg)
+* Example databases: 
+  - [CarlisleMenuItems.sql](../sql/CarlisleMenuItems.sql)
+  - [CarlisleMenuItemB.sql](../sql/CarlisleMenuItemsB.sql)
+
+
 ## Class 7
 
 Most of this class will be devoted to an ungraded but required lab activity to learn about creating and altering database tables within DBeaver:
