@@ -6,8 +6,8 @@
 Main topic for today: database joins
 * Whiteboard notes: [08-joins-whiteboard.svg](class08/08-joins-whiteboard.svg)
 * Example databases: 
-  - [CarlisleMenuItems.sql](../sql/carlislemenuitems.sql)
-  - [CarlisleMenuItemB.sql](../sql/carlislemenuitemsb.sql)
+  - [carlisle_menu_items.sql](../sql/carlisle_menu_items.sql)
+  - [carlisle_menu_items_b.sql](../sql/carlisle_menu_items_b.sql)
 
 
 ## Class 7
