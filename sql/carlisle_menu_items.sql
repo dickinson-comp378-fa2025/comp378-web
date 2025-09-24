@@ -17,49 +17,49 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- Name: carlislemenuitems; Type: SCHEMA; Schema: -; Owner: postgres
+-- Name: carlisle_menu_items; Type: SCHEMA; Schema: -; Owner: postgres
 --
 
-CREATE SCHEMA carlislemenuitems;
+CREATE SCHEMA carlisle_menu_items;
 
 
-ALTER SCHEMA carlislemenuitems OWNER TO postgres;
+ALTER SCHEMA carlisle_menu_items OWNER TO postgres;
 
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
 --
--- Name: item; Type: TABLE; Schema: carlislemenuitems; Owner: postgres
+-- Name: item; Type: TABLE; Schema: carlisle_menu_items; Owner: postgres
 --
 
-CREATE TABLE carlislemenuitems.item (
+CREATE TABLE carlisle_menu_items.item (
     id character varying(3) NOT NULL,
     name character varying(18) DEFAULT NULL::character varying,
     restaurant_id integer NOT NULL
 );
 
 
-ALTER TABLE carlislemenuitems.item OWNER TO postgres;
+ALTER TABLE carlisle_menu_items.item OWNER TO postgres;
 
 --
--- Name: restaurant; Type: TABLE; Schema: carlislemenuitems; Owner: postgres
+-- Name: restaurant; Type: TABLE; Schema: carlisle_menu_items; Owner: postgres
 --
 
-CREATE TABLE carlislemenuitems.restaurant (
+CREATE TABLE carlisle_menu_items.restaurant (
     id integer NOT NULL,
     name character varying(14) DEFAULT NULL::character varying,
     address character varying(36) DEFAULT NULL::character varying
 );
 
 
-ALTER TABLE carlislemenuitems.restaurant OWNER TO postgres;
+ALTER TABLE carlisle_menu_items.restaurant OWNER TO postgres;
 
 --
--- Data for Name: item; Type: TABLE DATA; Schema: carlislemenuitems; Owner: postgres
+-- Data for Name: item; Type: TABLE DATA; Schema: carlisle_menu_items; Owner: postgres
 --
 
-INSERT INTO carlislemenuitems.item VALUES
+INSERT INTO carlisle_menu_items.item VALUES
   ('18', 'pad thai', 23),
   ('18', 'ebi tempura', 49),
   ('18V', 'vegetable pad thai', 23),
@@ -70,43 +70,43 @@ INSERT INTO carlislemenuitems.item VALUES
 
 
 --
--- Data for Name: restaurant; Type: TABLE DATA; Schema: carlislemenuitems; Owner: postgres
+-- Data for Name: restaurant; Type: TABLE DATA; Schema: carlisle_menu_items; Owner: postgres
 --
 
-INSERT INTO carlislemenuitems.restaurant VALUES
+INSERT INTO carlisle_menu_items.restaurant VALUES
   (23, 'Issei Carlisle', '54 W High St, Carlisle, PA 17013'),
   (49, 'Mt Fuji', '149 N Hanover St, Carlisle, PA 17013');
 
 
 --
--- Name: item idx_17464_primary; Type: CONSTRAINT; Schema: carlislemenuitems; Owner: postgres
+-- Name: item idx_17464_primary; Type: CONSTRAINT; Schema: carlisle_menu_items; Owner: postgres
 --
 
-ALTER TABLE ONLY carlislemenuitems.item
+ALTER TABLE ONLY carlisle_menu_items.item
     ADD CONSTRAINT idx_17464_primary PRIMARY KEY (id, restaurant_id);
 
 
 --
--- Name: restaurant idx_17468_primary; Type: CONSTRAINT; Schema: carlislemenuitems; Owner: postgres
+-- Name: restaurant idx_17468_primary; Type: CONSTRAINT; Schema: carlisle_menu_items; Owner: postgres
 --
 
-ALTER TABLE ONLY carlislemenuitems.restaurant
+ALTER TABLE ONLY carlisle_menu_items.restaurant
     ADD CONSTRAINT idx_17468_primary PRIMARY KEY (id);
 
 
 --
--- Name: idx_17464_restaurant_fk; Type: INDEX; Schema: carlislemenuitems; Owner: postgres
+-- Name: idx_17464_restaurant_fk; Type: INDEX; Schema: carlisle_menu_items; Owner: postgres
 --
 
-CREATE INDEX idx_17464_restaurant_fk ON carlislemenuitems.item USING btree (restaurant_id);
+CREATE INDEX idx_17464_restaurant_fk ON carlisle_menu_items.item USING btree (restaurant_id);
 
 
 --
--- Name: item restaurant_fk; Type: FK CONSTRAINT; Schema: carlislemenuitems; Owner: postgres
+-- Name: item restaurant_fk; Type: FK CONSTRAINT; Schema: carlisle_menu_items; Owner: postgres
 --
 
-ALTER TABLE ONLY carlislemenuitems.item
-    ADD CONSTRAINT restaurant_fk FOREIGN KEY (restaurant_id) REFERENCES carlislemenuitems.restaurant(id) ON UPDATE RESTRICT ON DELETE RESTRICT;
+ALTER TABLE ONLY carlisle_menu_items.item
+    ADD CONSTRAINT restaurant_fk FOREIGN KEY (restaurant_id) REFERENCES carlisle_menu_items.restaurant(id) ON UPDATE RESTRICT ON DELETE RESTRICT;
 
 
 --
