@@ -178,24 +178,6 @@ Most of the class session will be devoted to a lab on these topics: [views-and-i
 
 The lab requires use of the [Southwind](../sql/southwind.sql) database.
 
-## Class 9
-
-Main topic for today: SQL statements `exists`, `union`, `intersect`, `except`, `insert into`, `delete from`, `update`, `alter table`
-
-Notes: 
-1. `intersect` and `except` are not available in MySQL. You should be
-   aware of these but we will not use them.
-1. `insert`, `delete`, and `update` are good examples of
-   transactions. By default, in MySQL, any single statement will be
-   treated as a transaction.
-1. This is a good time to start using the Format button in
-   phpMyAdmin. It will make your SQL much easier to read.
-1. It's also a good time to start commenting your SQL code. Lines
-   beginning with two dashes (`--`) are treated as comments.
-
-The class will consist of some demos of the above SQL statements
-followed by free lab time for working on homework assignments and
-asking questions.
 
 
 

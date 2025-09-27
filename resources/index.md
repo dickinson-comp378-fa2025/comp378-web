@@ -1,5 +1,22 @@
 # Detailed schedule
 
+## Class 9
+
+Main topic for today: SQL statements `exists`, `union`, `intersect`, `except`, `insert into`, `delete from`, `update`
+
+Notes: 
+1. `insert`, `delete`, and `update` are good examples of
+   transactions. By default, in Postgres, any single statement will be
+   treated as a transaction.
+1. This is a good time to start using a good editor that can autoformat your SQL. It will make your SQL much easier to read. VSCode has good SQL extensions. In DBeaver, use Format SQL (Ctrl+Shift+F).
+1. It's also a good time to start commenting your SQL code. Lines
+   beginning with two dashes (`--`) are treated as comments.
+
+The class will consist of some demos of the above SQL statements
+followed by free lab time for working on homework assignments and
+asking questions.
+
+
 
 ## Class 8
 
