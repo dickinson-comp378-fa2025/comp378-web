@@ -12,9 +12,7 @@ Notes:
 1. It's also a good time to start commenting your SQL code. Lines
    beginning with two dashes (`--`) are treated as comments.
 
-The class will consist of some demos of the above SQL statements
-followed by free lab time for working on homework assignments and
-asking questions.
+The class will consist of some demos of the above SQL statements followed by free lab time for working on homework assignments and asking questions. Example code: [sql-examples.sql](class09/sql-examples.sql)
 
 
 
