@@ -109,6 +109,31 @@ where
 
 -- So the above is all the suppliers who can’t supply at least one product. When we add the NOT, we will get all the suppliers who can supply everything. (In this case, there are none.)
 -- Theme: work from the inside out. Choose specific values. Try to describe the meaning of the query in words.
+
+-- Example 2b, to discuss in groups [textbook qu 7.21]: what does it do?
+
+select
+    p1.prodnr,
+    p1.prodname,
+    s1.supnr,
+    s1.purchase_price
+from
+    product p1,
+    supplies s1
+where
+    p1.prodnr = s1.prodnr
+    and not exists (
+        select
+            *
+        from
+            product p2,
+            supplies s2
+        where
+            p2.prodnr = s2.prodnr
+            and p1.prodnr = p2.prodnr
+            and s1.purchase_price > s2.purchase_price
+    );
+
 ------------------------------------------------
 --- example 3: union [q48 from textbook, section 7.3.1.11]
 ------------------------------------------------
@@ -202,4 +227,3 @@ where
         where
             supname = 'Deliwines'
     );
-
