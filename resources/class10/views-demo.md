@@ -16,7 +16,7 @@ where
     and p.prodnr = s.prodnr
     and s.supnr = r.supnr
 order by
-    product
+    product;
 ```
 
 Query the new view:
