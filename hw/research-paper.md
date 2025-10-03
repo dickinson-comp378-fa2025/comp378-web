@@ -44,10 +44,10 @@ you can choose to focus on just the papers that were awarded prizes. The prize-w
     - Resource Management in Aurora Serverless
   - Best Paper Runner-Up: Industrial Track
     - Adaptive and Robust Query Execution for Lakehouses At Scale
-- VLDB 2025 award papers: At the time of writing the conference has not taken place. Hopefully we can find out the winners before the assignment is due!
+- [VLDB 2025 award papers](https://vldb.org/2025/?conference-awards): The "best demo" papers are not eligible, but all others listed here are eligible.
 
 You are also free to choose any other paper published in one of the
-main research tracks at these two conferences.
+main research tracks at these conferences.
 
 Each individual and/or team must choose a different paper. Papers will
 be assigned on a first-come first-served basis. You can see a list of
