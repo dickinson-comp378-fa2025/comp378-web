@@ -170,13 +170,6 @@ the instructor via email or Teams with any questions.
 
 Exam review notes: [exam-review.pptx](class11/exam-review.pptx)
 
-## Class 10
-
-Main topic for today: defining indexes and views.
-
-Most of the class session will be devoted to a lab on these topics: [views-and-indexes-lab.docx](class10/views-and-indexes-lab.docx)
-
-The lab requires use of the [Southwind](../sql/southwind.sql) database.
 
 
 

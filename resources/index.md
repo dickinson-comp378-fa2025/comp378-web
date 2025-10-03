@@ -1,5 +1,20 @@
 # Detailed schedule
 
+## Class 10
+
+Main topic for today: defining indexes and views. 
+
+Demos:
+* [privileges](class10/privileges-demo.md)
+* [indexes](class10/index-demo.md)
+* [views](class10/views-demo.md)
+
+Most of the class session will be devoted to a lab on these topics: [views-and-indexes-lab.docx](class10/views-and-indexes-lab.docx). 
+* The lab requires use of the [Southwind](../sql/southwind.sql) database.
+* A solution is available, but don't look at it until after class: [views-and-indexes-lab-solution.docx](class10/views-and-indexes-lab-solution.docx).
+
+
+
 ## Class 9
 
 Main topic for today: SQL statements `exists`, `union`, `intersect`, `except`, `insert into`, `delete from`, `update`
