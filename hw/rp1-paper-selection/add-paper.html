@@ -18,9 +18,10 @@
         <form id="paperForm">
             <div class="form-group">
                 <label>
-                    Title <span class="required">*</span>
+                    Main title <span class="required">*</span>
                 </label>
                 <input type="text" id="title" name="title" required>
+                <div class="help-text">The main title of the paper selected. If the title contains a colon, the main title is the part before the colon. If there's no colon, the main title is the entire title.</div>
             </div>
 
             <div class="form-group">
@@ -28,6 +29,7 @@
                     Subtitle <span class="optional">(optional)</span>
                 </label>
                 <input type="text" id="subtitle" name="subtitle">
+                <div class="help-text">The subtitle of the paper selected. If the title contains a colon, the subtitle is the part after the colon. If there's no colon, there is no subtitle.</div>
             </div>
 
             <div class="form-group">
@@ -35,7 +37,7 @@
                     Students <span class="required">*</span>
                 </label>
                 <textarea id="students" name="students" required></textarea>
-                <div class="help-text">Student authors - must be unique</div>
+                <div class="help-text">Name(s) of the students in the team that will analyze and present on this paper. Maximum team size is 2.</div>
             </div>
 
             <div class="form-group">
@@ -45,7 +47,7 @@
                 <select id="conference" name="conference" required>
                     <option value="">Loading conferences...</option>
                 </select>
-                <div class="help-text">Select from existing conferences</div>
+                <div class="help-text"> The selected paper must be from the proceedings of one of the recent VLDB conferences, as stated in the assignment description.</div>
             </div>
 
             <button type="submit" id="submitBtn">Add Paper</button>
