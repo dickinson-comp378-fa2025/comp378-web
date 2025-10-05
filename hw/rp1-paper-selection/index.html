@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP1 paper selection</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RP1 paper selection</h1>
+        <div class="header-actions">
+            <a href="add-paper.html" class="add-button">Add New Paper</a>
+        </div>
+        <div id="error"></div>
+        <div id="loading">Loading papers...</div>
+        <div id="papers" class="papers-grid"></div>
+    </div>
+
+    <script src="config.js"></script>
+    <script>
+        async function loadPapers() {
+            const loadingEl = document.getElementById('loading');
+            const papersEl = document.getElementById('papers');
+            const errorEl = document.getElementById('error');
+
+            try {
+                // Fetch papers from Supabase
+                const { data, error } = await supabase
+                    .schema('rp1fa2025')
+                    .from('papers')
+                    .select('*')
+                    .order('created_at', { ascending: true });
+
+                if (error) throw error;
+
+                loadingEl.style.display = 'none';
+
+                if (!data || data.length === 0) {
+                    papersEl.innerHTML = '<div class="empty-state">No papers found</div>';
+                    return;
+                }
+
+                // Display papers
+                papersEl.innerHTML = data.map(paper => `
+                    <div class="paper-card">
+                        <div class="paper-title">${escapeHtml(paper.title)}</div>
+                        ${paper.subtitle ? `<div class="paper-subtitle">${escapeHtml(paper.subtitle)}</div>` : ''}
+                        <div class="paper-meta">
+                            <div class="paper-meta-item">
+                                <span class="paper-meta-label">Students</span>
+                                <span>${escapeHtml(paper.students)}</span>
+                            </div>
+                            <div class="paper-meta-item">
+                                <span class="paper-meta-label">Conference</span>
+                                <span>${escapeHtml(paper.conference)}</span>
+                            </div>
+                            <div class="paper-meta-item">
+                                <span class="paper-meta-label">Created</span>
+                                <span>${new Date(paper.created_at).toLocaleString()}</span>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+
+            } catch (err) {
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.textContent = `Error loading papers: ${err.message}`;
+                console.error('Error:', err);
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Load papers when page loads
+        loadPapers();
+    </script>
+</body>
+</html>

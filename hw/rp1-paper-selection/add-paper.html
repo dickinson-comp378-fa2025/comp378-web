@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Paper - Research Papers Database</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="add-paper.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Paper</h1>
+        <a href="index.html" class="nav-link">← Back to Papers List</a>
+
+        <div id="message"></div>
+
+        <form id="paperForm">
+            <div class="form-group">
+                <label>
+                    Title <span class="required">*</span>
+                </label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    Subtitle <span class="optional">(optional)</span>
+                </label>
+                <input type="text" id="subtitle" name="subtitle">
+            </div>
+
+            <div class="form-group">
+                <label>
+                    Students <span class="required">*</span>
+                </label>
+                <textarea id="students" name="students" required></textarea>
+                <div class="help-text">Student authors - must be unique</div>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    Conference <span class="required">*</span>
+                </label>
+                <select id="conference" name="conference" required>
+                    <option value="">Loading conferences...</option>
+                </select>
+                <div class="help-text">Select from existing conferences</div>
+            </div>
+
+            <button type="submit" id="submitBtn">Add Paper</button>
+        </form>
+    </div>
+
+    <script src="config.js"></script>
+    <script>
+        const messageEl = document.getElementById('message');
+        const conferenceSelect = document.getElementById('conference');
+        const form = document.getElementById('paperForm');
+        const submitBtn = document.getElementById('submitBtn');
+
+        function showMessage(text, type) {
+            messageEl.textContent = text;
+            messageEl.className = type;
+            messageEl.style.display = 'block';
+            setTimeout(() => {
+                messageEl.style.display = 'none';
+            }, 5000);
+        }
+
+        async function loadConferences() {
+            try {
+                const { data, error } = await supabase
+                    .schema('rp1fa2025')
+                    .from('conferences')
+                    .select('name')
+                    .order('name');
+
+                if (error) throw error;
+
+                conferenceSelect.innerHTML = '<option value="">Select a conference...</option>';
+
+                if (data && data.length > 0) {
+                    data.forEach(conf => {
+                        const option = document.createElement('option');
+                        option.value = conf.name;
+                        option.textContent = conf.name;
+                        conferenceSelect.appendChild(option);
+                    });
+                } else {
+                    conferenceSelect.innerHTML = '<option value="">No conferences available</option>';
+                }
+            } catch (err) {
+                console.error('Error loading conferences:', err);
+                conferenceSelect.innerHTML = '<option value="">Error loading conferences</option>';
+                showMessage(`Error loading conferences: ${err.message}`, 'error');
+            }
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Adding paper...';
+
+            const formData = {
+                title: document.getElementById('title').value.trim(),
+                subtitle: document.getElementById('subtitle').value.trim() || null,
+                students: document.getElementById('students').value.trim(),
+                conference: document.getElementById('conference').value
+            };
+
+            try {
+                const { data, error } = await supabase
+                    .schema('rp1fa2025')
+                    .from('papers')
+                    .insert([formData])
+                    .select();
+
+                if (error) throw error;
+
+                showMessage('Paper added successfully!', 'success');
+                form.reset();
+
+                setTimeout(() => {
+                    window.location.href = 'index.html';
+                }, 2000);
+
+            } catch (err) {
+                console.error('Error adding paper:', err);
+                showMessage(`Error adding paper: ${err.message}`, 'error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Add Paper';
+            }
+        });
+
+        loadConferences();
+    </script>
+</body>
+</html>
