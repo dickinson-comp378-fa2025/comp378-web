@@ -50,19 +50,18 @@ You are also free to choose any other paper published in one of the
 main research tracks at these conferences.
 
 Each individual and/or team must choose a different paper. Papers will
-be assigned on a first-come first-served basis. You can see a list of
-papers that have already been chosen at the following link:
+be assigned on a first-come first-served basis. You can make your selection at the following link (you may see a couple of fake choices to give you the idea of what is required):
 
-You can make your selection at the following link:
+- [RP1 paper selection](rp1-paper-selection)
 
-- [form for submitting choice of paper](https://forms.office.com/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UNTFYU0ZUMUw1MVhJWUZBU1RCTUxWQ0dSUy4u)
+<!-- - [form for submitting choice of paper](https://forms.office.com/Pages/ResponsePage.aspx?id=VbAyYrl2E0ybiLVirn22-2zFL4dI9oNMmoALudp-AK9UNTFYU0ZUMUw1MVhJWUZBU1RCTUxWQ0dSUy4u) -->
 
-Here is a list of papers already chosen (which may be out of date but
+<!-- Here is a list of papers already chosen (which may be out of date but
 the instructor will try to add information whenever possible):
 
 | name(s) | paper |
 | ------- | ----- |
-|         |       |
+|         |       | -->
 
 ### Step 2 of RP1: submit paper description
 
