@@ -1,5 +1,7 @@
 # Exams
 
+It will be possible to retake an exam under certain conditions. See the separate [Exam retakes page](./retakes.md).
+
 As stated on the syllabus, midterm exams will be...
     
 > closed-book pen-and-paper exams with one sheet of handwritten notes permitted
