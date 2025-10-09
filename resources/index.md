@@ -1,5 +1,11 @@
 # Detailed schedule
 
+## Class 11
+
+<!-- Exam review notes: [exam-review.pptx](class11/exam-review.pptx) -->
+
+Exam review notes: [normalization-example.pdf](class11/normalization-example.pdf)
+
 ## Class 10
 
 Main topic for today: defining indexes and views. 

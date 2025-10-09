@@ -166,9 +166,6 @@ the instructor via email or Teams with any questions.
 
 
 
-## Class 11
-
-Exam review notes: [exam-review.pptx](class11/exam-review.pptx)
 
 
 
