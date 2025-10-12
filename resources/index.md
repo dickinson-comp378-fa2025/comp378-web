@@ -1,5 +1,21 @@
 # Detailed schedule
 
+## Class 13
+
+Main topic for today: JDBC. See the [Using JDBC](../jdbc.md) web page (also available from a direct link on the main course webpage).
+
+In-class activities:
+  1. Quick overview of relevant slides from textbook materials: slides
+     30-40 from Chapter 15 powerpoint. Example file [DbDemo.java](../java/DbDemo.java) could be useful here.
+  2. Interactive minilab: implement a Java program that can access the
+     `wine` database. Follow the instructions on the [Using
+     JDBC](../jdbc.md) web page.
+  3. Remainder of time is available to work on assignments RP1 and/or CC4.
+
+## Class 12
+
+Exam 1
+
 ## Class 11
 
 <!-- Exam review notes: [exam-review.pptx](class11/exam-review.pptx) -->
