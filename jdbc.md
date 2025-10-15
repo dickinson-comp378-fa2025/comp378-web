@@ -16,7 +16,7 @@ Follow these steps to set up a new Java project in VS Code to interact with Post
 1. **Inside the project folder, create and populate subfolders:**
    
    Create a `src/` folder and `lib/` folder
-   - Put your source file [QueryExecutor.java](java/QueryExecutor.java) into the `src/` folder.  
+   - Put your source file [QueryExecutor.java](java/QueryExecutor.java) into the `src/` folder. An even simpler file which may be useful for debugging is [DbDemo.java](java/DbDemo.java)   
    - Put the external JAR [postgresql-42.7.7.jar](java/postgresql-42.7.7.jar) into the `lib/` folder.
   
 1. **Open the project folder in VS Code**  
