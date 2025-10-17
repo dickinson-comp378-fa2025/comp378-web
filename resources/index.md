@@ -1,5 +1,18 @@
 # Detailed schedule
 
+## Class 14
+
+1. Please take the [midsemester survey](https://forms.office.com/r/rmKYCQ2gTB).
+1. Exam discussion
+1. Overview of how to read a research paper:
+   1. Read abstract, introduction, and conclusion.
+   1. Examine figures and captions of figures. Try to understand the
+      main ideas and results presented.
+   1. Read the main body of the paper, skipping any technical material
+      that is too difficult to understand.
+1. Meetings with student teams for RP assignents as needed
+
+
 ## Class 13
 
 Main topic for today: JDBC. See the [Using JDBC](../jdbc.md) web page (also available from a direct link on the main course webpage).
