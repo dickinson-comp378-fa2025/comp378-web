@@ -120,17 +120,6 @@ Main topic for today: query optimization and join algorithms
   - as [Excel workbook](class16/join-examples.xlsx) (solutions are on the second sheet of this workbook)
   - as [PDF](class16/join-examples.pdf)
 
-## Class 15
-
-[Results of the midsemester feedback](class15/comp378-midsem-sp2022.pptx) are available.
-
-Main topic for today: B-trees.
-* [Visualization](https://www.cs.usfca.edu/~galles/visualization/BTree.html) by David Galles at UCSF. Set maximum degree to 5. This corresponds to what we call an order 2/4 tree. 
-* Handout: [btree-handout.docx](class15/btree-handout.docx)
-  - handout solution: [btree-handout-solution.pptx](class15/btree-handout-solution.pptx)
-* Whiteboard notes:
-  - [Part 1](class15/btrees-whiteboard-part1.svg)
-  - [Part 2](class15/btrees-whiteboard-part2.svg)
 
 
 
