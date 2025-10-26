@@ -1,5 +1,18 @@
 # Detailed schedule
 
+## Class 15
+
+* Results of the midsemester feedback
+
+Main topic for today: B-trees.
+* [Visualization](https://www.cs.usfca.edu/~galles/visualization/BTree.html) by David Galles at UCSF. Set maximum degree to 5. This corresponds to what we call an order 2/4 tree. 
+* Handout: [btree-handout.docx](class15/btree-handout.docx)
+  - handout solution: [btree-handout-solution.pptx](class15/btree-handout-solution.pptx)
+* Whiteboard notes:
+  - [Part 1](class15/btrees-whiteboard-part1.svg)
+  - [Part 2](class15/btrees-whiteboard-part2.svg)
+
+
 ## Class 14
 
 1. Please take the [midsemester survey](https://forms.office.com/r/rmKYCQ2gTB).
