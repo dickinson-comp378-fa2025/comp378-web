@@ -112,13 +112,6 @@ Research paper presentations
 
 Classic paper discussion of Brin \& Page (1998)
 
-## Class 16
-
-Main topic for today: query optimization and join algorithms
-* whiteboard notes: [join-algs-whiteboard.svg](class16/join-algs-whiteboard.svg)
-* handout on join algorithms: 
-  - as [Excel workbook](class16/join-examples.xlsx) (solutions are on the second sheet of this workbook)
-  - as [PDF](class16/join-examples.pdf)
 
 
 
