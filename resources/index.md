@@ -2,6 +2,8 @@
 
 ## Class 16
 
+Announcement: preliminary [RP2 presentation schedule](../hw/rp2-paper-presentation/rp2-presentation-schedule.md) is available -- contact instructor with any questions or concerns.
+
 Main topic for today: query optimization and join algorithms
 * whiteboard notes: [join-algs-whiteboard.svg](class16/join-algs-whiteboard.svg)
 * handout on join algorithms: 
