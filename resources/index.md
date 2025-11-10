@@ -3,7 +3,7 @@
 ## Class 20
 
 Main topic for today: database concurrency and locking
-* whiteboard notes: [concurrency-whiteboard.png](class20/concurrency-whiteboard.png), [concurrency-whiteboard.pptx](class20/concurrency-whiteboard.pptx)
+* whiteboard notes: [concurrency-whiteboard.pptx](class20/concurrency-whiteboard.pptx)
 * Java files:
   - [QueryExecutor.java](../java/QueryExecutor.java)
   - [SlowTransfer.java](../java/SlowTransfer.java)
