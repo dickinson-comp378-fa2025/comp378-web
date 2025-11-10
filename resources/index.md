@@ -1,5 +1,32 @@
 # Detailed schedule
 
+## Class 20
+
+Main topic for today: database concurrency and locking
+* whiteboard notes: [concurrency-whiteboard.png](class20/concurrency-whiteboard.png), [concurrency-whiteboard.pptx](class20/concurrency-whiteboard.pptx)
+* Java files:
+  - [QueryExecutor.java](../java/QueryExecutor.java)
+  - [SlowTransfer.java](../java/SlowTransfer.java)
+  - [TransactionDemo.java](../java/TransactionDemo.java)
+  - [WithdrawMoney.java](../java/WithdrawMoney.java)
+  - [Wait.java](../java/Wait.java)
+* Bank database: [bank.sql](../sql/bank.sql)
+
+There is a fun minilab that goes with this topic, but we do not have time to work on it in class. The instructor will demonstrate most of the programs, but you are encouraged to try them on your own also. Try the version that does not have accompanying explanations first, then look at the version that includes explanations:
+* Transaction and locking minilab:
+  - [without explanations](class20/demos-without-explanations.md)
+  - [with explanations](class20/demos-with-explanations.md)
+
+
+## Classes 18 and 19
+
+Research paper presentations
+
+## Class 17
+
+Classic paper discussion of Brin \& Page (1998)
+
+
 ## Class 16
 
 Announcement: preliminary [RP2 presentation schedule](../hw/rp2-paper-presentation/rp2-presentation-schedule.md) is available -- contact instructor with any questions or concerns.

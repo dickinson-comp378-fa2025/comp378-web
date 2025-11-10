@@ -1,7 +1,7 @@
 # COMP378: Database Systems, fall 2025
 
 * [Syllabus](syllabus-8-21-2025.docx)
-* [Overview Schedule](schedule-8-23-2025.xlsx)  <!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -->
+* [Overview Schedule](dbase-schedule-8-23-2025.xlsx)  <!-- &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 2/4/2022</font> -->
 * [Detailed schedule](resources)
 * [Textbook website](https://www.pdbmbook.com/), textbook [online
   playground](https://www.pdbmbook.com/playground), [textbook slides](https://lms.dickinson.edu/mod/folder/view.php?id=1362590)
