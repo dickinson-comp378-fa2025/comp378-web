@@ -28,14 +28,14 @@ public class WithdrawMoney {
 	public static void withdraw(QueryExecutor qe, String fromAccount,
 			String amount, String delay) throws Exception {
 		Connection connection = qe.getConnection();
-		String getBalance = "SELECT `balance` FROM `accounts` WHERE `account_number`='%s'";
+		String getBalance = "SELECT balance FROM accounts WHERE account_number='%s'";
 		if (LOCK_TYPE == LockType.READ) {
-			getBalance += " LOCK IN SHARE MODE";
+			getBalance += " FOR SHARE";
 		} else if (LOCK_TYPE == LockType.WRITE) {
 			getBalance += " FOR UPDATE";
 		}
 
-		String withdraw = "UPDATE `accounts` a SET a.balance=%s WHERE a.account_number=%s";
+		String withdraw = "UPDATE accounts SET balance=%s WHERE account_number=%s";
 
 //		System.out.format("Initiating transfer from %s to %s.\n",
 //				fromAccount, toAccount);
@@ -93,7 +93,7 @@ public class WithdrawMoney {
 				System.out.println(
 						"An exception was thrown during the transaction: "
 								+ e.getMessage());
-				qe.executeQuery("SELECT * FROM `accounts`");
+				qe.executeQuery("SELECT * FROM accounts");
 
 				String msg = "Most likely, the transaction was already rolled back\n"
 						+ "automatically by the database server. A rollback command will now\n"
@@ -109,7 +109,7 @@ public class WithdrawMoney {
 				System.out.println(
 						"An exception was thrown during SQL execution: "
 								+ e.getMessage());
-				qe.executeQuery("SELECT * FROM `accounts`");
+				qe.executeQuery("SELECT * FROM accounts");
 			}
 		}
 	}
@@ -150,7 +150,7 @@ public class WithdrawMoney {
 		System.out.println("\n--------------------------------");
 		System.out.println("Balances before withdrawal:");
 		System.out.println("--------------------------------");
-		qe.executeQuery("SELECT * FROM `accounts`");
+		qe.executeQuery("SELECT * FROM accounts");
 		System.out.println("--------------------------------\n");
 
 		withdraw(qe, fromAccount, amount, delay);
@@ -158,7 +158,7 @@ public class WithdrawMoney {
 		System.out.println("\n--------------------------------");
 		System.out.println("Balances after withdrawal:");
 		System.out.println("--------------------------------");
-		qe.executeQuery("SELECT * FROM `accounts`");
+		qe.executeQuery("SELECT * FROM accounts");
 		System.out.println("--------------------------------\n");
 	}
 

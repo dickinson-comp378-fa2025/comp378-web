@@ -17,8 +17,8 @@ public class SlowTransfer {
 	public static void transfer(QueryExecutor qe, String fromAccount,
 			String toAccount, String amount, String delay) {
 		Connection connection = qe.getConnection();
-		String withdraw = "UPDATE `accounts` a SET a.balance=a.balance-%s WHERE a.account_number=%s";
-		String deposit = "UPDATE `accounts` a SET a.balance=a.balance+%s WHERE a.account_number=%s";
+		String withdraw = "UPDATE accounts SET balance=balance-%s WHERE account_number=%s";
+		String deposit = "UPDATE accounts SET balance=balance+%s WHERE account_number=%s";
 
 		System.out.format("Initiating transfer from %s to %s.\n",
 				fromAccount, toAccount);
@@ -37,7 +37,7 @@ public class SlowTransfer {
 			statement.executeUpdate(
 					String.format(withdraw, amount, fromAccount));
 			System.out.println("completed.");
-//			qe.executeQuery("SELECT * FROM `accounts`");
+//			qe.executeQuery("SELECT * FROM accounts");
 
 			/////////////////////////////////////////////////////
 			// wait for 'delay' seconds
@@ -63,7 +63,7 @@ public class SlowTransfer {
 			System.out.println(
 					"An exception was thrown during the transaction: "
 							+ e.getMessage());
-//			qe.executeQuery("SELECT * FROM `accounts`");
+//			qe.executeQuery("SELECT * FROM accounts");
 
 			String msg = "Most likely, the transaction was already rolled back\n"
 					+ "automatically by the database server. A rollback command will now\n"
@@ -95,7 +95,7 @@ public class SlowTransfer {
 		System.out.println("\n--------------------------------");
 		System.out.println("Balances before transfer:");
 		System.out.println("--------------------------------");
-		qe.executeQuery("SELECT * FROM `accounts`");
+		qe.executeQuery("SELECT * FROM accounts");
 		System.out.println("--------------------------------\n");
 
 		transfer(qe, fromAccount, toAccount, amount, delay);
@@ -103,7 +103,7 @@ public class SlowTransfer {
 		System.out.println("\n--------------------------------");
 		System.out.println("Balances after transfer:");
 		System.out.println("--------------------------------");
-		qe.executeQuery("SELECT * FROM `accounts`");
+		qe.executeQuery("SELECT * FROM accounts");
 		System.out.println("--------------------------------\n");
 	}
 
