@@ -16,7 +16,7 @@ Each core content assignment is available as a Word document from the links belo
   - The Java program [DbDemo.java](../java/DbDemo.java) is not necessary, but
     may be useful as an even simpler example.
 * [CC5.docx](CC5.docx) 
-* [CC6.docx](CC6.docx) 
+* [CC6-v2.docx](CC6-v2.docx) &nbsp;&nbsp;&nbsp;<font color="red">UPDATED on 11/12/2025 -- make sure you have version v2</font>
   - Use the following Java files as a starting point:
     [QueryExecutor.java](../java/QueryExecutor.java),
     [CC6skeleton.java](../java/CC6skeleton.java). 
