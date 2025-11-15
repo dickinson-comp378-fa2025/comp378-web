@@ -1,5 +1,24 @@
 # Detailed schedule
 
+## Class 21
+
+Discussion of Sweeney (1997). Possible relevant links:
+* [Netflix Cancels Contest After Concerns Are Raised About Privacy](https://www.nytimes.com/2010/03/13/technology/13netflix.html) (NYtimes, March 2010)
+* [Cynthia Dwork: How to Force Our Machines to Play Fair](https://www.youtube.com/watch?v=VLOMcNYasHQ) on YouTube. Professor Dwork is one of the inventors of differential privacy.
+* [Differential privacy](https://en.wikipedia.org/wiki/Differential_privacy) on Wikipedia
+* Papers discussed in mini-lecture before discussion:
+  - Sweeney, L. (1997). Weaving technology and policy together to maintain confidentiality. *The Journal of Law, Medicine & Ethics*, *25*(2-3), 98-110.  [PDF available via Sage Journals](https://journals.sagepub.com/doi/10.1111/j.1748-720X.1997.tb01885.x) (and also on Moodle)
+
+  - Sweeney, L. (2000). Simple demographics often identify people uniquely. *Health (San Francisco)*, *671*(2000), 1-34.  [PDF available via Data Privacy Lab](https://dataprivacylab.org/projects/identifiability/paper1.pdf)
+
+  - Sweeney, L. (2013). Discrimination in online ad delivery. *Communications of the ACM*, *56*(5), 44-54.   [arXiv version](https://arxiv.org/abs/1301.6822)
+
+  - Narayanan, A., & Shmatikov, V. (2008, May). Robust de-anonymization of large sparse datasets. In *2008 IEEE Symposium on Security and Privacy (sp 2008)* (pp. 111-125). IEEE. [PDF available via arXiv](https://arxiv.org/pdf/cs/0610105)
+
+  - Dwork, C. (2006, July). Differential privacy. In *International colloquium on automata, languages, and programming* (pp. 1-12). Berlin, Heidelberg: Springer Berlin Heidelberg. [PDF available via Microsoft Research](https://www.microsoft.com/en-us/research/publication/differential-privacy/) | [Springer Link](https://link.springer.com/chapter/10.1007/11787006_1)
+
+
+
 ## Class 20
 
 Main topic for today: database concurrency and locking

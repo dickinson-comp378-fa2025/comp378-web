@@ -64,12 +64,6 @@ Midterm exam 2.
 1. [PHP demo](../php) (optional info for final project)
 2. exam review: [exam review whiteboard](class23/exam-review.png)
 
-## Class 22
-
-Discussion of Sweeney (1997). Possible relevant link:
-* [Netflix Cancels Contest After Concerns Are Raised About Privacy](https://www.nytimes.com/2010/03/13/technology/13netflix.html) (NYtimes, March 2010)
-* [Cynthia Dwork: How to Force Our Machines to Play Fair](https://www.youtube.com/watch?v=VLOMcNYasHQ) on YouTube. Professor Dwork is one of the inventors of differential privacy.
-* [Differential privacy](https://en.wikipedia.org/wiki/Differential_privacy) on Wikipedia
 
 
 ## Class 21
