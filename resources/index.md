@@ -1,5 +1,16 @@
 # Detailed schedule
 
+## Class 24
+
+Topics for today:
+1. Quickly cover write ahead logging, two-phase commit, and two-phase locking
+   * see [recovery-example.docx](class21/recovery-example.docx) and [2-phase-locking.pdf](class21/2-phase-locking.pdf)
+1. Further understand concurrency problems, continuing from the previous class meeting
+   * see whiteboard notes from last time: [concurrency-whiteboard.png](class20/concurrency-whiteboard.png), [concurrency-whiteboard.pptx](class20/concurrency-whiteboard.pptx)
+   * see [concurrency-examples.pdf](class21/concurrency-examples.pdf)
+   
+
+
 ## Class 21
 
 Discussion of Sweeney (1997). Possible relevant links:
