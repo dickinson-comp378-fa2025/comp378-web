@@ -1,5 +1,10 @@
 # Detailed schedule
 
+## Class 25
+
+1. [Course evaluations](https://dickinson.campuslabs.com/eval-home/).
+1. free time to consult on final projects
+
 ## Class 24
 
 Topics for today:

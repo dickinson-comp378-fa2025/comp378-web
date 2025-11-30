@@ -48,11 +48,7 @@ Database security demo (demonstrates a security flaw known as [SQL injection](ht
   - what happened and why?
 
 
-## Class 25
 
-1. [Course evaluations](https://dickinson.campuslabs.com/eval-home/direct/9247753).
-1. exam discussion
-1. free time to consult on final projects
 
 
 ## Class 24
