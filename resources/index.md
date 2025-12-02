@@ -5,7 +5,7 @@
 ## Class 25
 
 1. [Course evaluations](https://dickinson.campuslabs.com/eval-home/direct/2939206).
-1. free time to consult on final projects: https://zoom.us/my/johnmaccormick
+1. free time to consult on final projects: [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick)
 
 ## Class 24
 
