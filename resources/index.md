@@ -1,5 +1,7 @@
 # Detailed schedule
 
+
+
 ## Class 25
 
 1. [Course evaluations](https://dickinson.campuslabs.com/eval-home/).
@@ -15,6 +17,14 @@ Topics for today:
    * see [concurrency-examples.pdf](class21/concurrency-examples.pdf)
    
 
+
+## Class 23
+
+midterm exam 2
+
+## Class 22
+
+exam review
 
 ## Class 21
 
