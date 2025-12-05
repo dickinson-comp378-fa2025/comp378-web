@@ -79,8 +79,8 @@ database and the status of the project. This should include:
 * an ER or EER model, together with any necessary annotations;
 * the database schema in relation notation (as in section 6.1.5 of the textbook);
 * an SQL file consisting of a dump of the current version of your database;
-  -- Use the command line tool `pg_dump` (for Postgres) or in DBeaver, right-click on the schema and choose Tasks | Backup (and choose utf-8 encoding)
-  -- If the dump is more than a few kilobytes in size come, submit only the table descriptions and a few rows of sample data.
+  - Use the command line tool `pg_dump` (for Postgres) or in DBeaver, right-click on the schema and choose Tasks | Backup (and choose utf-8 encoding)
+  - If the dump is more than a few kilobytes in size come, submit only the table descriptions and a few rows of sample data.
 * a brief status report explaining what has been achieved so far and
   what are the major steps remaining to complete the
   project&mdash;this should be 100-200 words in length, although
