@@ -26,6 +26,7 @@ Exam 2 covers material from Topics 4-6.
 
 Exam 3 covers material from Topics 1-6. For this exam, you are permitted _two_ sides of handwritten notes on US letter sized paper.
 
+Topics emphasized in exam 3 include: normal forms, SQL queries, and join algorithms.
 
 ----
 Last modified: Thu Apr 14 16:38:58 UTC 2022 by jmac.
