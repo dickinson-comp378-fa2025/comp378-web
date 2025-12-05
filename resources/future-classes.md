@@ -33,12 +33,6 @@ Random order of final presentations:
 1. quick demo of MongoDB
 1. free time to consult on final projects
 
-## Class 26
-
-Informal mini-lecture: SQL injection attacks
-* example code: [sql-injection.zip](class26/sql-injection.zip)
-
-Remainder of time to work on final projects
 
 
 
