@@ -25,13 +25,6 @@ Random order of final presentations:
 1. free time to consult on final projects
 
 
-## Class 27
-
-1. Informal discussion of NoSQL databases (Ch 11 of PDBM), based on
-   abbreviated version of the textbook authors' Chapter 11 slides:
-   [pdbm-ch11-abbrev.pptx](class27/pdbm-ch11-abbrev.pptx)
-1. quick demo of MongoDB
-1. free time to consult on final projects
 
 
 

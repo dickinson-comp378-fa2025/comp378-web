@@ -1,5 +1,30 @@
 # Detailed schedule
 
+## Final presentations
+
+Final presentations will begin on Saturday December 20 at 9:00am. All presentations will be remote via Zoom at [https://zoom.us/my/johnmaccormick](https://zoom.us/my/johnmaccormick) (Meeting ID: 398 215 6590). The order was determined randomly, and the schedule is as follows:
+
+
+| Time | Presenters |
+| :--- | :--- |
+| 9:00am | John and Son |
+| 9:15am | Phu |
+| 9:30am | Tayyaba |
+| 9:45am | Anne |
+| 10:00am | Linh and Quang |
+| 10:15am | Zach |
+| 10:30am | _Break_ |
+| 10:45am | Nam and Harrison |
+| 11:00am | Shaik and Ifrad |
+| 11:15am | Adacus and Spencer |
+| 11:30am | Fej |
+| 11:45am | Minh |
+
+
+## Class 28
+
+Optional exam 3
+
 ## Class 27
 
 1. Informal discussion of NoSQL databases (Ch 11 of PDBM), based on
